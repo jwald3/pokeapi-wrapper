@@ -1,0 +1,18 @@
+from pokeapi_wrapper import PokeApiWrapper
+
+# instantiate PokeApiWrapper
+p = PokeApiWrapper()
+
+pokemon_info = p.get_pokemon_info('bulbasaur')
+
+print(pokemon_info['name'])
+print(pokemon_info['types'])
+print(pokemon_info['abilities'])
+print(pokemon_info['stats'])
+
+pokemon_info = p.get_pokemon_info('gastly')
+
+print(pokemon_info['name'])
+print(pokemon_info['types'])
+print(pokemon_info['abilities'])
+print(pokemon_info['stats'])
