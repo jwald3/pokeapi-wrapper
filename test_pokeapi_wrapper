@@ -5,14 +5,12 @@ p = PokeApiWrapper()
 
 pokemon_info = p.get_pokemon_info('bulbasaur')
 
-print(pokemon_info['name'])
-print(pokemon_info['types'])
-print(pokemon_info['abilities'])
-print(pokemon_info['stats'])
+print(pokemon_info)
 
-pokemon_info = p.get_pokemon_info('gastly')
+pokemon_info = p.get_pokemon_info('deoxys-attack')
 
-print(pokemon_info['name'])
-print(pokemon_info['types'])
-print(pokemon_info['abilities'])
-print(pokemon_info['stats'])
+print(pokemon_info)
+
+ability_info = p.get_ability_info('mold-breaker')
+
+print(ability_info)
