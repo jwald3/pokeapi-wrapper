@@ -49,10 +49,10 @@ print(f"Effect: {overgrow_info['effect']}")
 
 PokeAPI Wrapper currently supports two API endpoints: `get_pokemon_info` and `get_ability_info`. Both functions return a dictionary with keys corresponding to different pieces of information about the Pokemon or ability.
 
-`get_pokemon_info(pokemon_name: str) -> Dict[str, any]`
+### `get_pokemon_info(pokemon_name: str) -> Dict[str, any]`
 Returns a dictionary with information about the specified Pokemon, including its name, types, abilities, and base stats.
 
-`get_ability_info(ability_name: str) -> Dict[str, any]`
+### `get_ability_info(ability_name: str) -> Dict[str, any]`
 Returns a dictionary with information about the specified ability, including its name, the generation in which it was introduced, the Pokemon that can have this ability, and the effect it has in battle.
 
 ## Contributing
